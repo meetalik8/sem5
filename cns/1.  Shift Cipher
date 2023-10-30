@@ -1,4 +1,6 @@
 https://cse29-iiith.vlabs.ac.in/exp/shift-cipher/simulation.html
+
+[letter is shifted by a specific key and the new letter is used to replace it from alphabet, ks: 26, brute force]
 1. cipher text: haahjr ha khdu
 Rough Work:
 1: gzzgiq gz jgct
