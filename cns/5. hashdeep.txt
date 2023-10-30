@@ -5,3 +5,10 @@ hashdeep -a -r -k hashfile1.txt hello.txt X /path/to/directory
 nano hello.txt
 hashdeep -a -r -k hashfile1.txt hello.txt
 hashdeep -v -a -r -k hashfile1.txt hello.txt
+
+nano test1.txt
+nano test2.txt
+nano tst3.txt
+pwd
+hashdeep -c md5,sha1,sha256 /home/to/directory >hashset1.txt
+hashdeep -a -r -k hashset1.txt /home/to/directory
