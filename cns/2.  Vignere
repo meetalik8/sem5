@@ -1,0 +1,8 @@
+https://www.dcode.fr/vigenere-cipher
+CT: ytnorfomkov yxh zkvzsi
+Alphabet: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Key: KEY
+PT: oppenheimer and barbie
+
+[Polyalphabetic, key is repeated with PT the number is added then mod with 26, and from the value you get the letter to replace it with.]
+[Can be broken by Kasiski test, find repeated pattern, find length between patterns, determine possible length of key, divide cipher and then do freq analysis]
