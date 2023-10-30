@@ -11,3 +11,6 @@ cd RepoName
 git add <file_name>
 git commit -m "Changes pushed using cloud9"
 git push
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
