@@ -1,0 +1,6 @@
+whois google.com
+traceroute google.com
+dig tsec.edu
+nslookup google.com
+nikto -h google.com
+theHarvester -d google.com  -b pgp
