@@ -1,0 +1,7 @@
+https://www.dcode.fr/playfair-cipher
+PT: manchester under attack
+Grid: HELPABCDFGIKMNOQRSTUVWXYZ
+key: HELP
+CT: OLKFELTUCWTOCLUESYUPKR
+
+[polyalphabetic, 2 letters at a time of pt, key square 5x5 is made with key first then rest letters, if same column then above letter, if same row then left letter]
