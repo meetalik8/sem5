@@ -1,0 +1,7 @@
+hashdeep -V
+hashdeep hello.txt > hashfile1.txt
+ls
+hashdeep -a -r -k hashfile1.txt hello.txt X /path/to/directory
+nano hello.txt
+hashdeep -a -r -k hashfile1.txt hello.txt
+hashdeep -v -a -r -k hashfile1.txt hello.txt
