@@ -1,0 +1,115 @@
+/* Syntax, Inclusion, Color, Background, Fonts, Tables,
+lists,CSS3 selectors, Pseudo classes, Pseudo elements
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+nav ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: #a2aaff;
+    height: 50px;
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #0b0b0b;
+}
+nav a:hover{
+    color: #ffffff;
+}
+.header-section {
+    margin: 10px 10px 10px 10px;
+    background-color: #cb92fd;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.header-section h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.header-section img{
+    border-radius: 10px;
+}
+.header-section p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+.header-section a{
+    text-decoration: none;
+    color: #12404c;
+}
+.header-section a:hover{
+    color: #ffffff;
+}
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    background-color: #a2aaff;
+}
+tr:nth-child(odd){
+    background-color: #dcbdf7;
+}
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+    background-color: #a2aaff;
+    padding: 20px 0px 20px 0px;
+}
+.video-section p {
+    font-size: 30px;
+}
+iframe {
+    height: 300px;
+    width: 50%;
+}
+form {
+    background-color: #dcbdf7;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+fieldset {
+    color: #000;
+    padding: 5px;
+    font-size: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
