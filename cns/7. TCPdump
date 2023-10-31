@@ -1,0 +1,9 @@
+tcpdump
+sudo su
+tcpdump -n
+tcpdump -n tcp
+tcpdump -n icmp
+tcpdump -n portrange 1-79
+tcpdump -n src 192.168.0.182
+tcpdump -nnvv5 src 192.168.0.182 and dst port 443
+tcpdump udp and src port 53
