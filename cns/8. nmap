@@ -1,0 +1,5 @@
+nmap -sS www.google.com   ->TCP SYN
+nmap -sT www.google.com   ->TCP connect
+nmap -sF www.google.com   ->TCP FIN
+nmap -sN www.google.com   ->TCP NULL
+nmap -sA www.google.com   ->TCP ACK
