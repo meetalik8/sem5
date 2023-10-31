@@ -1,0 +1,15 @@
+sudo su
+iptables -F
+iptables -L
+iptables -A INPUT -p tcp --dport ssh -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -j DROP
+iptables -I INPUT 1 -i lo -j ACCEPT
+iptables -A INPUT -p icmp -j ACCEPT
+iptables -F
+ping neighbourip
+iptables -A INPUT -p icmp -j DROP
+ping neighbourip
+iptables -A OUTPUT -p icmp -j DROP
+iptables -A OUTPUT -p tcp -j DROP
+iptables -A INPUT -s ipaddress -p icmp -j DROP
