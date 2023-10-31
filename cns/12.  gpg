@@ -1,0 +1,16 @@
+gpg --delete-keys
+gpg --full-generate-key  [1 -> 1 -> y -> name -> email -> comment -> o -> 1234 -> ok ->1234 ]
+gpg --gen-key [name -> email -> 1234 -> ok -> 1234]
+gpg --export -a SenderName >senderpub
+ls
+gpg --output recieverpub --armor --export reciever@gmail.com
+ls
+gpg --export-secret-key -a SenderName > senderpri
+1234
+gpg --export-secret-key -a RecieverName > recieverpri
+1234
+gpg --import recieverpub
+gpg --list-keys
+touch myfile
+gpg --encrypt -r reciever@gmail.com myfile
+gpg --encrypt --sign --armor -r reciever@gmail.com myfile
