@@ -1,2 +1,9 @@
 git config --global user.name "Name"
 git config --global user.email "Email@address.com"
+git init/ clone
+git status
+make changes
+git add -A/ filename.txt
+git commit -m "commit message"
+git push
+git branch demo
