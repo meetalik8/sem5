@@ -16,3 +16,6 @@ git branch
 git push origin --delete demo
 git log --oneline
 q
+git add git.txt
+git commit -m "added commands"
+git push 
