@@ -19,3 +19,5 @@ q
 git add git.txt
 git commit -m "added commands"
 git push 
+git config --global --unset user.name
+git config --global --unset user.email
