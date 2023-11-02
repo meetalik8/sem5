@@ -1,2 +1,4 @@
+#to host an image of static web app
 FROM nginx:alpine
-COPY ./usr/share/nginx/html/test
+COPY index.html /usr/share/nginx/html/
+EXPOSE 80

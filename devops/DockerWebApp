@@ -1,0 +1,2 @@
+docker build -t my-web-app .
+docker run -p 80:80 my-web-app

@@ -1,3 +1,5 @@
+<!-- to create a container -->
 docker pull nginx
 docker run -p 80:80 nginx
 https://localhost
+ctrl + c
